@@ -1,16 +1,22 @@
 /* Footer Section */
 .footer {
-  background-color: var(--hero-bg);
-  color: var(--text-primary);
+  background-color: #0a0a0a;
+  color: #fff;
   padding: 100px 0 60px;
   position: relative;
   overflow: hidden;
   border-top: 1px solid #222;
-  /* Dark vertical grid lines */
   background-image: linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px);
   background-size: 12.5vw 100%;
   z-index: 2;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+body.dark .footer {
+  background-color: #fafaf8;
+  color: #111827;
+  border-top: 1px solid rgba(0,0,0,0.06);
+  background-image: linear-gradient(to right, rgba(0,0,0,0.035) 1px, transparent 1px);
 }
 
 .marquee-container {
@@ -23,12 +29,17 @@
 .marquee-content {
   display: inline-block;
   animation: marquee 30s linear infinite;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 8vw;
   font-weight: 200;
   line-height: 1;
   letter-spacing: -0.02em;
   color: #fff;
+  transition: color 0.3s ease;
+}
+
+body.dark .marquee-content {
+  color: #111827;
 }
 
 @keyframes marquee {
@@ -60,11 +71,15 @@
 }
 
 .footer-link {
-  color: var(--text-primary);
+  color: #fff;
   text-decoration: none;
   font-size: 24px;
   font-weight: 300;
-  transition: opacity 0.2s;
+  transition: all 0.3s ease;
+}
+
+body.dark .footer-link {
+  color: #111827;
 }
 
 .footer-link:hover {
@@ -73,8 +88,15 @@
 
 .copyright {
   font-size: 11px;
-  color: var(--text-muted);
+  color: #fff;
+  opacity: 0.4;
   margin-top: 40px;
+  transition: color 0.3s ease;
+}
+
+body.dark .copyright {
+  color: #111827;
+  opacity: 0.6;
 }
 
 .footer-images {

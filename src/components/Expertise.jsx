@@ -16,22 +16,22 @@ const Expertise = () => {
           </h2>
         </div>
         <div className="section-right" style={{ position: 'relative' }}>
-           <DraggableItem initialPos={{ x: 0, y: 0 }} className="expertise-card">
+           <DraggableItem initialPos={{ x: 20, y: 0 }} className="expertise-card">
               <div className="icon">◈</div>
               <h4>Product Innovation</h4>
               <p>I turn fuzzy inputs into clear product direction, smart experiments, and shippable increments.</p>
            </DraggableItem>
-           <DraggableItem initialPos={{ x: 260, y: 0 }} className="expertise-card">
+           <DraggableItem initialPos={{ x: 360, y: 0 }} className="expertise-card">
               <div className="icon">✦</div>
               <h4>Product Design</h4>
               <p>I craft simple flows and crisp UI, balancing usability, accessibility, and visual polish.</p>
            </DraggableItem>
-           <DraggableItem initialPos={{ x: -20, y: 220 }} className="expertise-card">
+           <DraggableItem initialPos={{ x: 40, y: 220 }} className="expertise-card">
               <div className="icon">☰</div>
               <h4>Vibe Coding</h4>
               <p>I use AI assisted building to explore, validate, and iterate quickly without sacrificing taste.</p>
            </DraggableItem>
-           <DraggableItem initialPos={{ x: 240, y: 240 }} className="expertise-card">
+           <DraggableItem initialPos={{ x: 320, y: 240 }} className="expertise-card">
               <div className="icon">▨</div>
               <h4>AI Workflows</h4>
               <p>I apply the right tools across research, ideation, copy, design, and delivery to amplify output.</p>

@@ -9,6 +9,8 @@
   --text-muted: #9ca3af;
   --grid-line: rgba(0,0,0,0.035);
   --border-color: rgba(0,0,0,0.06);
+  --highlight-bg: #e5e7eb;
+  --highlight-text: #111827;
 }
 
 body.dark {
@@ -20,6 +22,8 @@ body.dark {
   --text-muted: #6b7280;
   --grid-line: rgba(255,255,255,0.05);
   --border-color: rgba(255,255,255,0.1);
+  --highlight-bg: #2d2d2d;
+  --highlight-text: #f9fafb;
 }
 
 body {
