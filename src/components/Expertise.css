@@ -1,0 +1,44 @@
+.expertise-large-text {
+  font-size: 32px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #374151;
+  margin: 0;
+}
+
+.expertise-large-text span {
+  background: #e5e7eb;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.expertise-card {
+  width: 220px;
+  background: transparent;
+  border: 1px solid rgba(0,0,0,0.15);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.expertise-card .icon {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #111827;
+}
+
+.expertise-card h4 {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.expertise-card p {
+  margin: 0;
+  font-size: 11px;
+  color: #6b7280;
+  line-height: 1.6;
+}

@@ -1,0 +1,76 @@
+/* Brain Section */
+.brain-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid rgba(0,0,0,0.06);
+  position: relative;
+  z-index: 2;
+  background-color: #fbfbfb;
+  background-image: linear-gradient(to right, rgba(0,0,0,0.035) 1px, transparent 1px);
+  background-size: 12.5vw 100%;
+  padding: 100px 12.52% 60px;
+}
+
+.brain-section h3 {
+  font-size: 28px;
+  font-weight: 400;
+  margin: 0 0 12px;
+  color: #374151;
+}
+
+.brain-section p {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0 0 32px;
+  max-width: 460px;
+  line-height: 1.6;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #bfdbfe;
+  border-radius: 30px;
+  padding: 8px 8px 8px 24px;
+  width: 100%;
+  max-width: 540px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+}
+
+.search-box input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #374151;
+}
+
+.search-box input::placeholder {
+  color: #9ca3af;
+}
+
+.search-btn {
+  background: #dbeafe;
+  color: #3b82f6;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search-hint {
+  font-size: 11px;
+  color: #9ca3af;
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 500px;
+}
