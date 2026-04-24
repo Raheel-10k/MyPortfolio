@@ -75,3 +75,23 @@
   width: 100%;
   max-width: 500px;
 }
+
+@media (max-width: 768px) {
+  .brain-section {
+    padding: 60px 5vw;
+    background-size: 25vw 100%;
+  }
+  .brain-section h3 {
+    font-size: 22px;
+  }
+  .brain-section p {
+    font-size: 12px;
+    max-width: 100%;
+  }
+  .search-box {
+    padding: 6px 6px 6px 16px;
+  }
+  .search-box input {
+    font-size: 13px;
+  }
+}

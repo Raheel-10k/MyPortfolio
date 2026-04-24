@@ -117,3 +117,39 @@ body.dark .copyright {
 .selectable.active .draggable-image {
   filter: grayscale(0%);
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 60px 0 40px;
+    background-size: 25vw 100%;
+  }
+  .footer-content {
+    flex-direction: column;
+    margin: 0 5vw;
+    gap: 40px;
+    min-height: auto;
+  }
+  .footer-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  .draggable-image {
+    width: 140px !important;
+    height: auto !important;
+  }
+  .footer .selectable {
+    position: static !important;
+    transform: none !important;
+    width: auto !important;
+  }
+  .draggable-image {
+    width: 80px !important;
+    height: auto !important;
+  }
+  .handles {
+    display: none;
+  }
+}

@@ -54,3 +54,31 @@
   font-size: 12px;
   color: #6b7280;
 }
+
+@media (max-width: 768px) {
+  .hero {
+    background-size: 25vw 100%;
+  }
+  .name-part {
+    font-size: 15vw;
+    letter-spacing: -0.04em;
+  }
+  .hero-description {
+    font-size: 11px;
+    max-width: 60vw;
+    line-height: 1.4;
+  }
+  .hero-name-1 {
+    transform: translateX(-5vw) translateY(-5vh) !important;
+  }
+  .hero-name-2 {
+    transform: translateX(-20vw) translateY(0) !important;
+  }
+  .hero-bio {
+    transform: translateX(-15vw) translateY(0) !important;
+  }
+  .get-to-know-btn {
+    padding: 12px 24px;
+    font-size: 13px;
+  }
+}

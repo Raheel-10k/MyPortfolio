@@ -37,3 +37,15 @@
 
 .w-honors .w { font-weight: bold; font-size: 16px; }
 .w-honors .honors { font-size: 11px; writing-mode: vertical-rl; transform: rotate(180deg); opacity: 0.8; }
+
+@media (max-width: 768px) {
+  .top-bar {
+    padding: 16px 20px;
+  }
+  .top-bar .info {
+    font-size: 10px;
+  }
+  .w-honors {
+    display: none;
+  }
+}
