@@ -110,4 +110,10 @@ body.dark .copyright {
   object-fit: cover;
   display: block;
   pointer-events: none; /* Let the wrapper handle drag events */
+  filter: grayscale(100%);
+  transition: filter 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.selectable.active .draggable-image {
+  filter: grayscale(0%);
 }
