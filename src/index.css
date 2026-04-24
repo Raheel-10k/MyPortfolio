@@ -75,8 +75,7 @@ body {
   background-color: var(--section-bg);
   background-image: linear-gradient(to right, var(--grid-line) 1px, transparent 1px);
   background-size: 12.5vw 100%;
-  padding: 100px 12.52% 0;
-  transition: background-color 0.3s ease;
+  padding: 0px 12.52% 0;
 }
 
 .section-header {
