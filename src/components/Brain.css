@@ -7,22 +7,23 @@
   border-top: 1px solid rgba(0,0,0,0.06);
   position: relative;
   z-index: 2;
-  background-color: #fbfbfb;
-  background-image: linear-gradient(to right, rgba(0,0,0,0.035) 1px, transparent 1px);
+  background-color: var(--bg-color);
+  background-image: linear-gradient(to right, var(--grid-line) 1px, transparent 1px);
   background-size: 12.5vw 100%;
   padding: 100px 12.52% 60px;
+  transition: background-color 0.3s ease;
 }
 
 .brain-section h3 {
   font-size: 28px;
   font-weight: 400;
   margin: 0 0 12px;
-  color: #374151;
+  color: var(--text-primary);
 }
 
 .brain-section p {
   font-size: 14px;
-  color: #6b7280;
+  color: var(--text-secondary);
   margin: 0 0 32px;
   max-width: 460px;
   line-height: 1.6;

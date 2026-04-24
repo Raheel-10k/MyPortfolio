@@ -1,8 +1,8 @@
 /* Footer Section */
 .footer {
-  background-color: #0a0a0a;
-  color: #fff;
-  padding: 40px 0 0 0;
+  background-color: var(--hero-bg);
+  color: var(--text-primary);
+  padding: 100px 0 60px;
   position: relative;
   overflow: hidden;
   border-top: 1px solid #222;
@@ -10,6 +10,7 @@
   background-image: linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px);
   background-size: 12.5vw 100%;
   z-index: 2;
+  transition: background-color 0.3s ease;
 }
 
 .marquee-container {
@@ -59,10 +60,11 @@
 }
 
 .footer-link {
-  color: #9ca3af;
+  color: var(--text-primary);
   text-decoration: none;
-  font-size: 14px;
-  transition: color 0.2s;
+  font-size: 24px;
+  font-weight: 300;
+  transition: opacity 0.2s;
 }
 
 .footer-link:hover {
@@ -70,10 +72,9 @@
 }
 
 .copyright {
-  font-size: 12px;
-  color: #6b7280;
-  margin-top: auto;
-  padding-bottom: 40px;
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 40px;
 }
 
 .footer-images {
