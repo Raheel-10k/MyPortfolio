@@ -1,9 +1,5 @@
 import React from 'react';
 
-const ArrowIcon = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{ marginLeft: '4px', display: 'inline-block', verticalAlign: 'middle' }}><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
-);
-
 const Projects = () => {
   return (
     <div className="section">
@@ -20,12 +16,12 @@ const Projects = () => {
         <div className="section-right">
           <table className="table">
             <tbody>
-              <tr><td>BuildFast AI</td><td>AI tools and automations shipped fast for real workflows.</td><td>Visit <ArrowIcon /></td></tr>
-              <tr><td>CodeCanvas</td><td>Visual DSA learning with code + interaction.</td><td>Visit <ArrowIcon /></td></tr>
-              <tr><td>VisionMind</td><td>Face intelligence & recognition experiments.</td><td>Visit <ArrowIcon /></td></tr>
-              <tr><td>TruthLens</td><td>Deepfake detection for media authenticity.</td><td>Visit <ArrowIcon /></td></tr>
-              <tr><td>ModelArena</td><td>Benchmarking open models on enterprise GPUs.</td><td>Visit <ArrowIcon /></td></tr>
-              <tr><td>LaunchStack</td><td>Full-stack MVP experiments from idea to deploy.</td><td>Visit <ArrowIcon /></td></tr>
+              <tr><td>BuildFast AI</td><td>AI tools and automations shipped fast for real workflows.</td><td></td></tr>
+              <tr><td>CodeCanvas</td><td>Visual DSA learning with code + interaction.</td><td></td></tr>
+              <tr><td>VisionMind</td><td>Face intelligence & recognition experiments.</td><td></td></tr>
+              <tr><td>TruthLens</td><td>Deepfake detection for media authenticity.</td><td></td></tr>
+              <tr><td>ModelArena</td><td>Benchmarking open models on enterprise GPUs.</td><td></td></tr>
+              <tr><td>LaunchStack</td><td>Full-stack MVP experiments from idea to deploy.</td><td></td></tr>
             </tbody>
           </table>
         </div>
