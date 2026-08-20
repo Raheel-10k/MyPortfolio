@@ -1,13 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import TopBar from './TopBar';
 import DraggableItem from './DraggableItem';
 import './Hero.css';
 
 const Hero = () => {
   return (
     <div className="hero">
-      <TopBar />
       {/* Position 1: "DAVID" top left roughly */}
       <DraggableItem initialPos={{ x: '18vw', y: '16vh' }} className="hero-name-1">
         <h1 className="name-part">RAHEEL</h1>

@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import TopBar from '../components/TopBar';
 import Hero from '../components/Hero';
 import Experience from '../components/Experience';
 import Expertise from '../components/Expertise';
